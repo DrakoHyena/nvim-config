@@ -16,7 +16,6 @@ return {
                 "markdown",
                 "markdown_inline",
                 "python",
-                "typescript",
                 "vim",
                 "vimdoc",
                 "yaml",

@@ -16,7 +16,7 @@ return {
 
         -- 2. Ensure Mason installs them (plus the eslint LSP)
         require("mason-tool-installer").setup({
-            ensure_installed = { "selene", "stylelint", "htmlhint", "eslint" },
+            ensure_installed = { "selene", "stylua", "prettier", "stylelint", "htmlhint", "eslint" },
         })
 
         vim.lsp.enable("eslint")

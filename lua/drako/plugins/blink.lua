@@ -1,6 +1,6 @@
 return {
     "saghen/blink.cmp",
-    build = "cargo build --release",
+    version = "*",
     dependencies = "rafamadriz/friendly-snippets",
     opts = {
         -- 'default' for mappings similar to 'supertab'
