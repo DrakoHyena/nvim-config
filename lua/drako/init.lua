@@ -43,7 +43,7 @@ vim.keymap.set("n", "<leader>wa", "<C-w><", { desc = "Make window smaller" })
 vim.keymap.set("n", "<CR>", ":<up>", { silent = false, noremap = true })
 
 -- Theme/Colors
--- see ./plugins/vauge.nvim
+-- see ./plugins/theme.nvim
 
 -- Misc Editor Settings
 vim.opt.guicursor = ""
